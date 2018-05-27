@@ -2,6 +2,24 @@
 
 include_once("database.php");
 
+$mijnFilter = $_GET["filter"];
+
+$gefilterdeProducten = array();
+
+for ($i = 0; $i < count($products); ++$i)
+{
+  $product = $products[$i];
+  $categorieen = $product["categories"];
+  for($j = 0; $j < count($categorieen); ++$j)
+  {
+    $categorieNaam = $categorieen[$j];
+    if($categorieNaam == $mijnFilter)
+    {
+      array_push ($gefilterdeProducten, $product);
+    }
+  }
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -61,9 +79,9 @@ include_once("database.php");
 				<div id="products">
           
 <?php
- for($i = 0; $i < count($products); ++$i) 
+ for($i = 0; $i < count($gefilterdeProducten); ++$i) 
  {
-   $productItem = $products[$i];
+   $productItem = $gefilterdeProducten[$i];
 ?>  
           
 					<div class = "ProductItem">
