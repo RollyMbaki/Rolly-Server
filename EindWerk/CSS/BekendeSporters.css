@@ -1,34 +1,89 @@
 #sporters{
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-template-rows: 50px auto auto;
-  grid-template-areas: "titel titel titel titel"
+  grid-template-rows: 50px auto auto auto;
+  grid-template-areas: "menu menu menu menu"
+                       "titel titel titel titel"
                        "tekst tekst tekst tekst"
-                       "bs1 bs2 bs3 bs4";
+                       "info info info info";
   
   grid-gap: 10px;
+  padding: 0 16px;
 }
+
+#menu{
+  grid-area:menu;
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+#menu>a{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 4px;
+}
+
+#menu>a:hover{
+  background-color: lightgray;
+}
+
 
 #titelBS{
   grid-area: titel;
+}
+
+#titelBS>h3{
+  padding: 16px 0;
+  font-size: 24px;
+  border-bottom: 1px solid #f1f1f1;
 }
 
 #tekstBS{
   grid-area: tekst;
 }
 
-#fotoBS1{
-  grid-area: bs1;
+#infoBS{
+  grid-area: info;
+  padding-top: 20px;
 }
 
-#fotoBS2{
-  grid-area: bs2;
+.fotoBS{
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
-#fotoBS3{
-  grid-area: bs3;
+.naam{
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 10px 0;
 }
 
-#fotoBS4{
-  grid-area: bs4;
+.sport{
+  margin: 15px 0;
+  opacity: 0.60;
+}
+
+.knop{
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f1f1f1;
+  padding: 8px 16px;
+}
+
+.knop:hover{
+  background-color: lightgray;
 }
