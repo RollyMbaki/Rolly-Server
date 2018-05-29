@@ -1,0 +1,41 @@
+#contact{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50px auto 30px 30px 30px 30px 30px 30px;
+  grid-template-areas: "titel"
+                       "tekst"
+                       "balk1"
+                       "balk2"
+                       "balk3"
+                       "balk4"
+                       "balk5";
+  grid-gap: 10px;
+}
+
+#titelC{
+  grid-area: titel;
+}
+
+#tekstC{
+  grid-area: tekst;
+}
+
+#balk1{
+  grid-area: balk1;
+}
+
+#balk2{
+  grid-area: balk2;
+}
+
+#balk3{
+  grid-area: balk3;
+}
+
+#balk4{
+  grid-area: balk4;
+}
+
+#balk5{
+  grid-area: balk5;
+}

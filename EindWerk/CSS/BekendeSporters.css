@@ -1,0 +1,34 @@
+#sporters{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 50px auto auto;
+  grid-template-areas: "titel titel titel titel"
+                       "tekst tekst tekst tekst"
+                       "bs1 bs2 bs3 bs4";
+  
+  grid-gap: 10px;
+}
+
+#titelBS{
+  grid-area: titel;
+}
+
+#tekstBS{
+  grid-area: tekst;
+}
+
+#fotoBS1{
+  grid-area: bs1;
+}
+
+#fotoBS2{
+  grid-area: bs2;
+}
+
+#fotoBS3{
+  grid-area: bs3;
+}
+
+#fotoBS4{
+  grid-area: bs4;
+}

@@ -1,0 +1,10 @@
+#plaatsen{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "map";
+}
+
+#map{
+  grid-area: map;
+}

@@ -1,0 +1,51 @@
+#VS{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50px auto auto;
+  grid-template-areas: "menu"
+                       "titel"
+                       "fotos";
+  grid-gap: 10px;
+  padding: 0 25px;
+}
+
+#menuVS{
+  grid-area:menu;
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+#menuVS>a{
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 4px;
+}
+
+#menuVS>a:hover{
+  background-color: lightgray;
+}
+
+#titelVS{
+  grid-area: titel;
+}
+
+#titelVS>h3{
+  padding: 16px 0;
+  font-size: 24px;
+  border-bottom: 1px solid lightgray;
+}
+
+#fotosVS{
+  grid-area: fotos;
+  padding-top: 20px;
+}

@@ -1,0 +1,34 @@
+#gridContainer{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50px auto auto auto auto auto;
+  grid-template-areas: "menu"
+                       "home"
+                       "sport"
+                       "sporters"
+                       "geschiedenis"
+                       "plaatsen";
+  grid-gap: 15px;
+}
+#menu{
+  grid-area: menu;
+}
+#home{
+  grid-area: home;
+}
+
+#sport{
+  grid-area: sport;
+}
+
+#sporters{
+  grid-area: sporters;
+}
+
+#geschiedenis{
+  grid-area: geschiedenis;
+}
+
+#plaatsen{
+  grid-area: plaatsen;
+}
