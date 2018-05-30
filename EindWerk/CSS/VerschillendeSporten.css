@@ -1,12 +1,12 @@
 #VS{
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 50px auto auto;
+  grid-template-rows: 50px auto auto auto;
   grid-template-areas: "menu"
                        "titel"
-                       "fotos";
+                       "fotos"
+                       "footer";
   grid-gap: 10px;
-  padding: 0 25px;
 }
 
 #menu{
@@ -37,6 +37,8 @@
 
 #titelVS{
   grid-area: titel;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 #titelVS>h3{
@@ -48,4 +50,21 @@
 #fotosVS{
   grid-area: fotos;
   padding-top: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+#footer{
+  grid-area: footer;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  margin-top: 25px;
+  padding: 16px 0px;
+}
+
+#footer>p{
+  text-align: center;
+  background-color: black;
+  color: white;
 }

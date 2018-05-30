@@ -8,42 +8,38 @@
   <link rel="stylesheet" type="text/css" href="CSS/Style.css">
 </head>
 <body>
-   <div id="gridContainer">
-      <div id="contact">
-        <div id="titelC">
-          <h3>Contact</h3>
-        </div>
-        <div id="tekstC">
-          <p>
-            hahahahahaha
-          </p>
-        </div>
-        <div id="balk1">
-          <form>
-            
-          </form>
-        </div>
-        <div id="balk2">
-          <form>
-            
-          </form>
-        </div>
-        <div id="balk3">
-          <form>
-            
-          </form>
-        </div>
-        <div id="balk4">
-          <form>
-            
-          </form>
-        </div>
-        <div id="balk5">
-          <form>
-            
-          </form>
-        </div>
+  <div id="contact">
+    <div id="menu">
+      <a href="#">Home</a>
+      <a href="#">Geschiedenis</a>
+      <a href="VerschillendeSporten.php">Verschillende Sporten</a>
+      <a href="BekendeSporters">Bekende Sporters</a>
+      <a href="#">Plaatsen</a>
+      <a href="#">Contact</a>
+    </div>
+    <div id="titelC">
+      <h3>Contact</h3>
+    </div>
+    <div id="tekstC">
+      <p>
+        hahahahahaha
+      </p>
+    </div>
+    <div id="inhoudC">
+      <div id="balkNaam">
       </div>
+      <div id="balkMail">
+      </div>
+      <div id="balkOnderwerp">
+      </div>
+      <div id="balkComment">
+      </div>
+      <div id="balkVersturen">
+      </div>
+    </div>
+    <div id="footer">
+      <p>hahaha</p>
+    </div>
   </div>
 </body>
 </html>
