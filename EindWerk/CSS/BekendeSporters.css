@@ -1,14 +1,14 @@
 #sporters{
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: 50px auto auto auto;
-  grid-template-areas: "menu menu menu menu"
-                       "titel titel titel titel"
-                       "tekst tekst tekst tekst"
-                       "info info info info";
+  grid-template-columns: auto;
+  grid-template-rows: 50px auto auto auto auto;
+  grid-template-areas: "menu"
+                       "titel"
+                       "tekst"
+                       "info"
+                       "footer";
   
   grid-gap: 10px;
-  padding: 0 16px;
 }
 
 #menu{
@@ -40,6 +40,8 @@
 
 #titelBS{
   grid-area: titel;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 #titelBS>h3{
@@ -50,11 +52,30 @@
 
 #tekstBS{
   grid-area: tekst;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 #infoBS{
   grid-area: info;
   padding-top: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+#footer{
+  grid-area: footer;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  margin-top: 25px;
+  padding: 16px 0px;
+}
+
+#footer>p{
+  text-align: center;
+  background-color: black;
+  color: white;
 }
 
 .fotoBS{

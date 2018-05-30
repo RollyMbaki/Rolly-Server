@@ -15,7 +15,7 @@
       <a href="#">Home</a>
       <a href="#">Geschiedenis</a>
       <a href="#">Verschillende Sporten</a>
-      <a href="#">Bekende Sporters</a>
+      <a href="BekendeSporters.php">Bekende Sporters</a>
       <a href="#">Plaatsen</a>
       <a href="#">Contact</a>
     </div>
@@ -115,7 +115,11 @@
       </div>
     
     </div>
-      
+    
+    <div id="footer">
+      <p>hahaha</p>
+    </div>
+    
   </div>
 </body>
 </html>

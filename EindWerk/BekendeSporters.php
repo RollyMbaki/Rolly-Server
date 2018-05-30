@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
   <link rel="stylesheet" type="text/css" href="CSS/BekendeSporters.css">
   <link rel="stylesheet" type="text/css" href="CSS/InfoBS.css">
   <link rel="stylesheet" type="text/css" href="CSS/InhoudBS1.css">
@@ -18,7 +19,7 @@
     <div id="menu">
       <a href="#">Home</a>
       <a href="#">Geschiedenis</a>
-      <a href="#">Verschillende Sporten</a>
+      <a href="VerschillendeSporten.php">Verschillende Sporten</a>
       <a href="#">Bekende Sporters</a>
       <a href="#">Plaatsen</a>
       <a href="#">Contact</a>
@@ -108,6 +109,10 @@
         </div>
       </div>
       
+    </div>
+    
+    <div id="footer">
+      <p>hahaha</p>
     </div>
     
   </div>
