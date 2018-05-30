@@ -1,0 +1,49 @@
+#infoBS{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: "info1"
+                       "info2" 
+                       "info3" 
+                       "info4";
+  grid-gap: 10px;
+}
+
+#infoBS1{
+  grid-area: info1;
+}
+
+#infoBS2{
+  grid-area: info2;
+}
+
+#infoBS3{
+  grid-area: info3;
+}
+
+#infoBS4{
+  grid-area: info4;
+}
+
+@media screen and (min-width: 600px)
+{
+  #infoBS{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: "info1 info2" 
+                         "info3 info4";
+    grid-gap: 10px;
+  }
+}
+
+@media screen and (min-width: 950px)
+{
+    #infoBS{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: "info1 info2 info3 info4";
+    grid-gap: 10px;
+  }
+}

@@ -5,16 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" type="text/css" href="CSS/Contact.css">
+  <link rel="stylesheet" type="text/css" href="CSS/InhoudC.css">
   <link rel="stylesheet" type="text/css" href="CSS/Style.css">
 </head>
 <body>
   <div id="contact">
     <div id="menu">
-      <a href="#">Home</a>
-      <a href="#">Geschiedenis</a>
+      <a href="Home.php">Home</a>
+      <a href="Geschiedenis.php">Geschiedenis</a>
       <a href="VerschillendeSporten.php">Verschillende Sporten</a>
-      <a href="BekendeSporters">Bekende Sporters</a>
-      <a href="#">Plaatsen</a>
+      <a href="BekendeSporters.php">Bekende Sporters</a>
+      <a href="Plaatsen.php">Plaatsen</a>
       <a href="#">Contact</a>
     </div>
     <div id="titelC">
@@ -27,14 +28,19 @@
     </div>
     <div id="inhoudC">
       <div id="balkNaam">
+        <input type="text" placeholder="Naam" required name="Naam" class="invullen">
       </div>
       <div id="balkMail">
+        <input type="text" placeholder="E-mail" required name="E-mail" class="invullen">
       </div>
       <div id="balkOnderwerp">
+        <input type="text" placeholder="Onderwerp" required name="Onderwerp" class="invullen">
       </div>
-      <div id="balkComment">
+      <div id="balkBericht">
+        <input type="text" placeholder="Bericht" required name="Bericht" class="invullen">
       </div>
-      <div id="balkVersturen">
+      <div id="balkIndienen">
+        <button type="submit" class="knop">Indienen</button>
       </div>
     </div>
     <div id="footer">

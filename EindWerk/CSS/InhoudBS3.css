@@ -1,0 +1,30 @@
+#infoBS3{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 170px auto auto auto auto;
+  grid-template-areas: "foto" 
+                       "naam"
+                       "sport"
+                       "tekst" 
+                       "knop";
+}
+
+#fotoBS3{
+  grid-area: foto;
+}
+
+#naamBS3{
+  grid-area: naam;
+}
+
+#sportBS3{
+  grid-area: sport;
+}
+
+#tekstBS3{
+  grid-area: tekst;
+}
+
+#knopBS3{
+  grid-area: knop;
+}

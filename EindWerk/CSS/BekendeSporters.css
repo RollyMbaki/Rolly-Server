@@ -40,8 +40,8 @@
 
 #titelBS{
   grid-area: titel;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 #titelBS>h3{
@@ -52,15 +52,15 @@
 
 #tekstBS{
   grid-area: tekst;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 #infoBS{
   grid-area: info;
-  padding-top: 20px;
-  margin-left: 16px;
-  margin-right: 16px;
+  padding: 20px 0;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 #footer{
@@ -94,6 +94,11 @@
 .sport{
   margin: 15px 0;
   opacity: 0.60;
+  font-size: 16px;
+}
+
+.tekst{
+  font-size: 12px;
 }
 
 .knop{

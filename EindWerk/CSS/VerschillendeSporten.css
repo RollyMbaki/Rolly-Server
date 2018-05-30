@@ -37,8 +37,8 @@
 
 #titelVS{
   grid-area: titel;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 #titelVS>h3{
@@ -50,8 +50,8 @@
 #fotosVS{
   grid-area: fotos;
   padding-top: 20px;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 #footer{

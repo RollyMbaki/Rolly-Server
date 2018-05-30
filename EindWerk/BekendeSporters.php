@@ -17,12 +17,12 @@
   <div id="sporters">
     
     <div id="menu">
-      <a href="#">Home</a>
-      <a href="#">Geschiedenis</a>
+      <a href="Home.php">Home</a>
+      <a href="Geschiedenis.php">Geschiedenis</a>
       <a href="VerschillendeSporten.php">Verschillende Sporten</a>
       <a href="#">Bekende Sporters</a>
-      <a href="#">Plaatsen</a>
-      <a href="#">Contact</a>
+      <a href="Plaatsen.php">Plaatsen</a>
+      <a href="Contact.php">Contact</a>
     </div>
     
     <div id="titelBS">
@@ -56,7 +56,7 @@
       </div>
 
       <div id="infoBS2">
-         <div id="fotoBS2">
+        <div id="fotoBS2">
          <img src="fotos/jamiebestwick.jpg" alt="Jamie Bestwick" class="fotoBS">
         </div>
         <div id="naamBS2">
