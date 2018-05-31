@@ -1,0 +1,18 @@
+#slideshowG{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "slideshow";
+}
+
+#slides{
+  grid-area: slideshow;
+  margin: 10px 0;
+}
+
+.mySlides{
+  display: none;
+  width: 500px;
+  height: 250px;
+  margin: auto;
+}

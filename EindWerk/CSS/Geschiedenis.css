@@ -1,0 +1,77 @@
+#geschiedenis{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50px auto auto auto auto;
+  grid-template-areas: "menu"
+                       "titel"
+                       "tekst"
+                       "slideshow"
+                       "footer";
+  grid-gap: 10px;
+}
+
+#menu{
+  grid-area:menu;
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+#menu>a{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 4px;
+}
+
+#menu>a:hover{
+  background-color: lightgray;
+}
+
+#titelG{
+  grid-area: titel;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#titelG>h3{
+  padding: 16px 0;
+  font-size: 24px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+#tekstG{
+  grid-area: tekst;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#slideshowG{
+  grid-area: slideshow;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#footer{
+  grid-area: footer;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  margin-top: 25px;
+  padding: 16px 0px;
+}
+
+#footer>p{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
