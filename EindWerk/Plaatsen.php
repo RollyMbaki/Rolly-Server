@@ -49,7 +49,7 @@
     </div>
      
     <div id="footer">
-     <p>hahaha</p>
+      <p>Xtreme Sports</p>
     </div>
   </div>
 </body>

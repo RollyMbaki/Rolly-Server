@@ -16,7 +16,7 @@
   border-bottom: 1px solid #f1f1f1;
   height: 50px;
   line-height: 50px;
-   z-index: 1;
+  z-index: 1;
 }
 
 .menu{
@@ -135,6 +135,24 @@ label{
 
 .knop:hover{
   background-color: lightgray;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: lightgray; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: black; 
 }
 
 @media screen and (min-width: 600px)

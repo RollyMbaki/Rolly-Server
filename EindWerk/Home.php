@@ -31,7 +31,7 @@
         <p class="tekstFoto">
           Welkom op de Xtreme Sports website. 
           <br>
-          Hier kunt meer vinden over de geschiedenis, 4 bekende sporters en nog veel meer. 
+          Hier op deze site vindt u meer terug over de geschiedenis, de verschillende sporten en nog veel meer. 
         </p>
       </div>
       <script>
@@ -52,7 +52,7 @@
       </script>
     </div>
     <div id="footer">
-      <p>hahaha</p>
+      <p>Xtreme Sports</p>
     </div>
   </div>
 </body>

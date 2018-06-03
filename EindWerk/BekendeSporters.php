@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
   <link rel="stylesheet" type="text/css" href="CSS/BekendeSporters.css">
   <link rel="stylesheet" type="text/css" href="CSS/InfoBS.css">
   <link rel="stylesheet" type="text/css" href="CSS/InhoudBS1.css">
@@ -116,7 +115,7 @@
     </div>
     
     <div id="footer">
-      <p>hahaha</p>
+      <p>Xtreme Sports</p>
     </div>
     
   </div>
