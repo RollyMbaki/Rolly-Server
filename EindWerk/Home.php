@@ -10,13 +10,17 @@
 </head>
 <body>
   <div id="home">
-    <div id="menu">
-      <a href="#">Home</a>
-      <a href="Geschiedenis.php">Geschiedenis</a>
-      <a href="VerschillendeSporten.php">Verschillende Sporten</a>
-      <a href="BekendeSporters.php">Bekende Sporters</a>
-      <a href="Plaatsen.php">Plaatsen</a>
-      <a href="Contact.php">Contact</a>
+    <div id="nav">
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle"/>
+      <div class="menu">
+        <a href="#">Home</a>
+        <a href="Geschiedenis.php">Geschiedenis</a>
+        <a href="VerschillendeSporten.php">Verschillende Sporten</a>
+        <a href="BekendeSporters.php">Bekende Sporters</a>
+        <a href="Plaatsen.php">Plaatsen</a>
+        <a href="Contact.php">Contact</a>
+      </div>
     </div>
     
     <div id="slideshowH">
@@ -25,7 +29,7 @@
         <img class="mySlides" src="fotos/iceclimbing.jpg">
         <img class="mySlides" src="fotos/mountainbike.jpg">
         <p class="tekstFoto">
-          Welk op de Xtreme Sports website. 
+          Welkom op de Xtreme Sports website. 
           <br>
           Hier kunt meer vinden over de geschiedenis, 4 bekende sporters en nog veel meer. 
         </p>

@@ -2,25 +2,8 @@
 
 include_once("database.php");
 
-$mijnFilter = $_GET["filter"];
-
-$gefilterdeProducten = array();
-
-for ($i = 0; $i < count($products); ++$i)
-{
-  $product = $products[$i];
-  $categorieen = $product["categories"];
-  for($j = 0; $j < count($categorieen); ++$j)
-  {
-    $categorieNaam = $categorieen[$j];
-    if($categorieNaam == $mijnFilter)
-    {
-      array_push ($gefilterdeProducten, $product);
-    }
-  }
-}
-
 ?>
+
 
 <!DOCTYPE html>
 <html>
@@ -78,28 +61,30 @@ for ($i = 0; $i < count($products); ++$i)
 				</div>
 				<div id="products">
           
-<?php
- for($i = 0; $i < count($gefilterdeProducten); ++$i) 
- {
-   $productItem = $gefilterdeProducten[$i];
-?>  
+          <?php
+          for ($i = 0; $i < count($products); ++$i)
+          {
+            $productItem = $products[$i];
+          ?>
+
+                    <div class = "ProductItem">
+                      <a href="product.php?id=<?= $i; ?>">
+                      <h1>
+          <?= $productItem["title"]; ?>
+                      </h1>
+                      <div>
+                        <img src="images/<?= $productItem["image"]; ?>" alt="Bert">
+                        <p>
+          <?= $productItem["text"]; ?>
+                        </p>
+                      </div>
+                      </a>
+                    </div>
+          <?php
+          }
+          ?>
           
-					<div class = "ProductItem">
-						<a href="product.php?id=<?= $i ?>">
-						<h1>
-  <?= $productItem["title"]?>
-						</h1>
-						<div>
-							<img src="images/<?= $productItem["image"]?>" alt="Bert">
-							<p>
-	<?= $productItem["text"]?>
-							</p>
-						</div>
-						</a>
-					</div>
-<?php
-  }         
-?>      
+          
 				</div>
 			</div>
 		</div>

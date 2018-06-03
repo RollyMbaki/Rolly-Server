@@ -11,13 +11,17 @@
 <body>
   <div id="VS">
     
-    <div id="menu">
-      <a href="Home.php">Home</a>
-      <a href="Geschiedenis.php">Geschiedenis</a>
-      <a href="#">Verschillende Sporten</a>
-      <a href="BekendeSporters.php">Bekende Sporters</a>
-      <a href="Plaatsen.php">Plaatsen</a>
-      <a href="Contact.php">Contact</a>
+    <div id="nav">
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle"/>
+      <div class="menu">
+        <a href="Home.php">Home</a>
+        <a href="Geschiedenis.php">Geschiedenis</a>
+        <a href="#">Verschillende Sporten</a>
+        <a href="BekendeSporters.php">Bekende Sporters</a>
+        <a href="Plaatsen.php">Plaatsen</a>
+        <a href="Contact.php">Contact</a>
+      </div>
     </div>
     
     <div id="titelVS">

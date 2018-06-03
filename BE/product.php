@@ -1,8 +1,8 @@
 <?php
-  include_once("database.php");
-  
-  $productID = $_GET["id"];
 
+  include_once("database.php");
+
+  $productID = $_GET["id"];
   $productItem = $products[$productID];
 ?>
 
@@ -45,11 +45,12 @@
 			</div>
 			
 			
+      
 			<div id="content">
-				<div id="imageTitle" style="background-image: url('images/<?= $productItem["image"];?>')">
+				<div id="imageTitle" style="background-image: url('images/<?= $productItem["image"]; ?>')">
 					<div>
 						<h1>
-	<?= $productItem["title"];?>
+<?= $productItem["title"]; ?>
 						</h1>
 					</div>
 				</div>
@@ -59,7 +60,7 @@
 						product specificaties:
 					</p>
 					<ul>
-						<li>prijs: <?= $productItem["prijs"];?> &euro;</li>
+						<li>prijs: 25,00 &euro;</li>
 						<li>spec 2</li>
 						<li>spec 3</li>
 						<li>spec 4</li>
@@ -69,7 +70,7 @@
 				
 				<div id="productDescription">
 					<p>
-	<?= $productItem["text"];?>
+<?= $productItem["text"]; ?>
 					</p>
 				</div>
 			</div>
